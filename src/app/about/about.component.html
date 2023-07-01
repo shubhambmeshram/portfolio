@@ -1,0 +1,17 @@
+<h1 *ngFor="let item of data">{{item.name}}</h1>
+
+
+<div class="container">
+    <div class="row justify-content-between">
+        <div class="col-4">
+            <label for="">First</label>
+        </div>
+        <div class="col-4">
+            <p-selectButton [options]="stateOptions" [(ngModel)]="value" optionLabel="label"
+                optionValue="value"></p-selectButton>
+        </div>
+        <div class="col-4">
+            <label for="">Last</label>
+        </div>
+    </div>
+</div>

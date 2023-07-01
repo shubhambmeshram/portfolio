@@ -1,0 +1,91 @@
+:host ::ng-deep .p-inputtext {
+    color: brown;
+}
+
+:host ::ng-deep input [type="password"] {
+    color: red;
+    font-size: 5rem;
+    height: 50px;
+    transform: translateY(27px);
+    padding: 0.5rem;
+    margin: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+:host ::ng-deep.p-inputtext:focus {
+    border: 1px solid #000;
+    box-shadow: none;
+}
+
+:host ::ng-deep .p-scrollpanel-bar {
+    background-color: gray;
+    color: white;
+    opacity: 1;
+    width: 12px;
+    opacity: 1;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px gray;
+    transition: blueviolet .2s;
+}
+:host ::ng-deep .p-scrollpanel-bar:hover {
+    background-color: lightgray;
+}
+
+:host ::ng-deep .p-scrollpanel {
+    margin-top: 2rem;
+}
+
+:host ::ng-deep .p-scrollpanel-wrapper {
+    width: 98%;
+    box-shadow: 1px 1px 8px lightgray;
+}
+
+:host ::ng-deep .p-scrollpanel-content {
+    padding: 1rem;
+    /* background-color: aqua; */
+}
+
+/* a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+} */
+
+body {
+    height: 15000px;
+}
+  
+  .main {
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+    padding: 1rem;
+  position: relative;
+  top: 0;
+  left: 5rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+
+  .row {
+    height: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  a {
+    position: relative;
+    top: 100px;
+    left: 0;
+    margin: 0.5rem;
+    height: 26px;
+    display: block;
+}
