@@ -16,3 +16,11 @@ nav ul li a:hover {
     text-decoration: underline;
     transition: 0.5s linear;
 }
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 700;
+    color: black;
+}
